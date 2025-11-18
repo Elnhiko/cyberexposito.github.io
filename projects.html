@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects – cyberexposito</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="site-header">
+        <a href="index.html" class="logo">CYBER<span>EXPOSITO</span></a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <section class="section-header" style="text-align:center; margin-bottom: 4rem;">
+        <p class="eyebrow">SELECTED WORKS</p>
+        <h1>Labs &amp; <span class="glitch-text" data-text="Infrastructure">Infrastructure</span></h1>
+      </section>
+
+      <main class="zigzag-grid reveal">
+        <article class="zigzag-item">
+          <div class="project-visual tilt-card">
+            <img 
+              src="homelab.jpg" 
+              alt="Homelab Infrastructure" 
+              class="project-img"
+            />
+          </div>
+          <div class="project-content">
+            <h3>Homelab Infrastructure</h3>
+            <p class="text-muted">
+              Designed and deployed a comprehensive virtualized environment on Proxmox to mirror small-business infrastructure. It serves as a live testing ground for network segmentation (VLANs), deployment automation, and offensive security drills against both Windows and Linux targets.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Proxmox</span>
+              <span class="tag">VLANs</span>
+              <span class="tag">System Hardening</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="zigzag-item">
+          <div class="project-visual tilt-card">
+            <img 
+              src="vpn.jpg" 
+              alt="Self-Hosted VPN Gateway" 
+              class="project-img"
+            />
+          </div>
+          <div class="project-content">
+            <h3>Self-Hosted VPN Gateway</h3>
+            <p class="text-muted">
+              Configured a secure VPN gateway to enable encrypted remote access to internal lab services. This project simulates a real-world remote workforce setup, allowing for secure administration and exposure testing from external networks while keeping the core infrastructure isolated.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Remote Access</span>
+              <span class="tag">Network Security</span>
+              <span class="tag">Tunneling</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="zigzag-item">
+          <div class="project-visual tilt-card">
+            <img 
+              src="hardware.jpg" 
+              alt="Custom Hardware Lab" 
+              class="project-img"
+            />
+          </div>
+          <div class="project-content">
+            <h3>Custom Hardware Lab</h3>
+            <p class="text-muted">
+              Engineered a custom physical workspace optimized for heavy virtualization and hardware testing. Features a high-performance custom PC, KVM switching for multi-device management, and physical networking gear to bridge the gap between software simulation and physical layer reality.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Hardware</span>
+              <span class="tag">Virtualization Rig</span>
+              <span class="tag">Physical Networking</span>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>© <span id="year"></span> cyberexposito.</span>
+        <div class="footer-right">
+            <span>Projects · Legal & Ethical Scope</span>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
