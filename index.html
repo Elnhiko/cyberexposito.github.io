@@ -461,7 +461,7 @@ section{
 
 .timeline-item::before{
   content:'';
-  position:absolute;left:-2.5rem;top:6px;
+  position:absolute;left:calc(-2rem - 5px);top:6px;
   width:10px;height:10px;
   border:1px solid var(--cyan);
   background:var(--dark);
@@ -960,7 +960,6 @@ footer{
   </div>
   <div class="projects-grid">
     <div class="project-card reveal">
-      <div class="project-img-placeholder">⬡</div>
       <div class="project-body">
         <div class="project-type">Homelab</div>
         <div class="project-name">HOMELAB V3</div>
@@ -973,7 +972,6 @@ footer{
       </div>
     </div>
     <div class="project-card reveal">
-      <div class="project-img-placeholder">⬡</div>
       <div class="project-body">
         <div class="project-type">Réseau / Privacy</div>
         <div class="project-name">VPN GATEWAY</div>
@@ -986,7 +984,6 @@ footer{
       </div>
     </div>
     <div class="project-card reveal">
-      <div class="project-img-placeholder">⬡</div>
       <div class="project-body">
         <div class="project-type">Sécurité / CTF</div>
         <div class="project-name">CTF WRITEUPS</div>
@@ -1037,13 +1034,13 @@ footer{
     </div>
     <div class="contact-form reveal">
       <div class="form-group">
-        <input type="text" placeholder="// IDENTIFIANT">
+        <input type="text" placeholder="// Nom">
       </div>
       <div class="form-group">
-        <input type="email" placeholder="// CANAL DE RÉPONSE">
+        <input type="email" placeholder="// Email">
       </div>
       <div class="form-group">
-        <textarea placeholder="// MESSAGE CHIFFRÉ..."></textarea>
+        <textarea placeholder="// Message..."></textarea>
       </div>
       <button class="btn btn-primary" style="align-self:flex-start;border:none;cursor:pointer;">
         Transmettre →
