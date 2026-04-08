@@ -13,17 +13,6 @@ Personal portfolio showcasing my skills, experience and projects as an IT appren
 
 ---
 
-## ✨ Features
-
-- **Cyberpunk aesthetic** — neon colors, CRT scanlines, grid background, glitch animation
-- **Typing effect** — rotating phrases in the hero section
-- **Scroll reveal** — sections animate in as you scroll
-- **Custom cursor** — crosshair with magenta trailing dot
-- **Responsive** — works on desktop and mobile
-- **Contact form** — opens your mail client directly via `mailto:`
-
----
-
 ## 🗂️ Project Structure
 
 ```
@@ -31,12 +20,9 @@ cyberexposito.github.io/
 ├── index.html        # HTML structure
 ├── style.css         # All styles (CSS variables, animations, layout)
 ├── main.js           # JavaScript (cursor, typing, scroll reveal, contact)
-├── thumbnail.png     # LinkedIn preview image
 ├── CNAME             # Custom domain config
 └── README.md
 ```
-
----
 
 ## 🛠️ Stack
 
@@ -61,26 +47,6 @@ Defined as CSS variables in `style.css`:
   --yellow:  #ffd700;
   --dark:    #05050f;
 }
-```
-
----
-
-## 🚀 Local Development
-
-No build step required.
-
-```bash
-# Clone the repo
-git clone https://github.com/Elnhiko/cyberexposito.github.io.git
-cd cyberexposito.github.io
-
-# Option 1 — open directly
-open index.html
-
-# Option 2 — serve locally
-python3 -m http.server 8080
-# then visit http://localhost:8080
-```
 
 ---
 
@@ -92,24 +58,8 @@ Deployed automatically via **GitHub Pages** on every push to `main`.
 git add .
 git commit -m "update: your description here"
 git push origin main
+
 ```
-
----
-
-## ✏️ Customization
-
-| Section | File | What to edit |
-|---|---|---|
-| Hero | `index.html` | `.hero-tag`, `.hero-name` |
-| Typing phrases | `main.js` | `phrases[]` array |
-| About / Terminal | `index.html` | `.about-text` + `.terminal-box` |
-| Skills | `index.html` | `.skill-card` blocks in `#skills` |
-| Experience | `index.html` | `.timeline-item` blocks in `#experience` |
-| Formations | `index.html` | `.timeline-item` blocks in `#formations` |
-| Projects | `index.html` | `.project-card` blocks in `#projects` |
-| Contact links | `index.html` | `href` on `.contact-item` elements |
-| Contact email | `main.js` | `mailto:` address in the send handler |
-
 ---
 
 ## 📄 License
