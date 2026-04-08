@@ -36,20 +36,6 @@ cyberexposito.github.io/
 
 ---
 
-## 🎨 Color Palette
-
-Defined as CSS variables in `style.css`:
-
-```css
-:root {
-  --cyan:    #00f5ff;
-  --magenta: #ff0080;
-  --yellow:  #ffd700;
-  --dark:    #05050f;
-}
-
----
-
 ## 📦 Deployment
 
 Deployed automatically via **GitHub Pages** on every push to `main`.
