@@ -42,7 +42,7 @@ Deployed automatically via **GitHub Pages** on every push to `main`.
 
 ```bash
 git add .
-git commit -m "update: your description here"
+git commit -m 
 git push origin main
 
 ```
