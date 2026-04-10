@@ -3,7 +3,6 @@
 > Cyberpunk-themed personal portfolio · Vanilla HTML/CSS/JS · Hosted on GitHub Pages
 
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-181717?logo=github)](https://cyberexposito.github.io)
-[![License](https://img.shields.io/badge/License-MIT-00f5ff)](#license)
 
 ---
 
@@ -47,7 +46,3 @@ git push origin main
 
 ```
 ---
-
-## 📄 License
-
-MIT — feel free to fork and adapt.
